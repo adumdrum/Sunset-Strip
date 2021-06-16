@@ -1,0 +1,71 @@
+body{
+ width: 50%;
+ height: 100%;
+}
+
+.im-excess2{
+  width: 400%;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+}
+
+.im-excess3{
+  width: 400%;
+  position: relative;
+  top: 0%;
+  left:0%;
+  z-index: 1;
+}
+
+.im-excess4{
+  width: 400%;
+  position: relative;
+  top:0%;
+  left:0%;
+  z-index: 1;
+}
+
+.im-welcome{
+  width: 100%;
+  position: absolute;
+  top: -20%;
+  left:0px;
+  z-index: 2;
+}
+
+
+audio {
+  width: 15%;
+  position: absolute;
+  top:auto;
+  left:auto;
+  z-index: 3;
+}
+
+img{
+  width: 100%;
+}
+
+
+@keyframes float {
+  0% {margin-top: 0;}
+  50% {margin-top: 20;}
+  100% {margin-top: 0;}
+}
+
+.float1{
+  animation: float 4s infinite;
+  animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+}
+
+.float2{
+  animation: float 6s infinite;
+  animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+}
+
+.float3{
+  animation: float 5s infinite;
+  animation-timing-function: cubic-bezier(.45,.08,.64,.95);
+}
